@@ -11,7 +11,7 @@ $access_token = 'xjGIR1MZNjzmCI9qagfTX7ksvvmLJYmOZZfCaAvY52kld2Hm4SeDJtzRv31ZDyI
             "to" => 'Ub5fea2ff169cba24b2179fd33e59e454', 
             "messages" => [ 
                         "type" => "text", 
-                        "text" => 'test ja'; 
+                        "text" => "test ja"
                     ]
         ]; 
   
