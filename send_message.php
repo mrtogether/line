@@ -3,7 +3,7 @@
  * 
  */
 class SendMessages {
-    private $access_token = '1qnPh/gnyYJSLDKs+vow4t/hrMSrtWTYB7Z+JqkMDr9FUWmE8W8ADDk5uW4zjymJVWXPuVJYedOFwU9GAiJ/2bCX9vxeZowPcuTy1k1/xdptkBQPpEq45ap31EreeXmoNwNF9HQ/E6O7B2PQuX/dHgdB04t89/1O/w1cDnyilFU=';
+    private $access_token = 'xjGIR1MZNjzmCI9qagfTX7ksvvmLJYmOZZfCaAvY52kld2Hm4SeDJtzRv31ZDyIum31zNpHaY6lIWJ0LRzIqnxsgrBt0a+dKb56qqBmOlDtKyONakxR1kk6ADFzu3Ko5WWqxfhMcufHu3ldcWEhREAdB04t89/1O/w1cDnyilFU=';
 	public function __construct()
     {
         
