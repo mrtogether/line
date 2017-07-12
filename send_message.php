@@ -131,7 +131,7 @@ class SendMessages {
     }
 }
 $obj = new SendMessages();
-$obj->replyMessages();
+$obj->check_token();
 //$user = $obj->getUserid();
 $msg = isset($_POST['msg'])? $_POST['msg']: '';
 
