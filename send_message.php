@@ -16,7 +16,7 @@ if (!is_null($events['events'])) {
 	if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 	    // Get text sent
 	    $text = $event['message']['text'];
-	    if($text == 'hi'){
+	    if($text == 'Hi'){
 		$text = 'สวัสดีค่ะ';
 	    }
 	    if($text == '1+1=?'){
