@@ -26,6 +26,7 @@ class SendMessages {
     }
     
     public function replyMessages($access_token = NULL){
+	    echo "testttt";exit();
         $access_token = $this->access_token;
         // Get POST body content
         $content = file_get_contents('php://input');
