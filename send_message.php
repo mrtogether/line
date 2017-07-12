@@ -5,14 +5,14 @@
 
 $access_token = 'xjGIR1MZNjzmCI9qagfTX7ksvvmLJYmOZZfCaAvY52kld2Hm4SeDJtzRv31ZDyIum31zNpHaY6lIWJ0LRzIqnxsgrBt0a+dKb56qqBmOlDtKyONakxR1kk6ADFzu3Ko5WWqxfhMcufHu3ldcWEhREAdB04t89/1O/w1cDnyilFU=';
 // Get POST body content
-$messages = [ 
-            "type" => "text", 
-            "text" => 'test ja'; 
-        ]; 
+
   
         $post_data = [ 
             "to" => 'Ub5fea2ff169cba24b2179fd33e59e454', 
-            "messages" => [$messages] 
+            "messages" => [ 
+                        "type" => "text", 
+                        "text" => 'test ja'; 
+                    ]
         ]; 
   
         $header = array( 
