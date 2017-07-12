@@ -40,7 +40,7 @@ class SendMessages {
                     // Get text sent
                     $text = $event['message']['text'];
                     if($text == 'hi'){
-                        $text = 'สวัสดีค่ะ';
+                        $text = 'สวัสดีค่ะ:'.$events['events'][0]['source']['userId'];
                     }
                     if($text == '1+1=?'){
                         $text = '2 ไง  ต้องให้บอกนะ เดี๋ยะ เดี๊ยะ!! 555++';
