@@ -142,3 +142,4 @@ if($msg != ''){
     $result = $obj->pushMessages();
     var_dump($result);
 }
+?>
