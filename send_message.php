@@ -32,6 +32,7 @@
   
 //         $result = curl_exec($ch); 
 //         curl_close($ch); 
-        GOTO(https://mrtogether.herokuapp.com/push.php);
+        GOTO('https://mrtogether.herokuapp.com/push.php');
+             //header('Location: http://example.com/some/url');
 ?>
 
