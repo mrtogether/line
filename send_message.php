@@ -32,6 +32,7 @@
   
 //         $result = curl_exec($ch); 
 //         curl_close($ch); 
+echo 'loading';
         header('Location: https://mrtogether.herokuapp.com/push.php');
 ?>
 
