@@ -3,7 +3,7 @@
    <input type="submit" value="Submit">
 </form>
 <?php
-echo 6;
+echo 7;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL, 'http://uat.dxplace.com/dxtms/testem');
     curl_setopt($ch,CURLOPT_RETURNTRANSFER , true);
