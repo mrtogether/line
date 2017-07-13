@@ -1,5 +1,5 @@
 <?php
-echo 3;
+echo 4;
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL, 'http://uat.dxplace.com/dxtms/testem');
     curl_setopt($ch,CURLOPT_RETURNTRANSFER , true);
