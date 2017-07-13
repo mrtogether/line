@@ -33,7 +33,24 @@
 //         $result = curl_exec($ch); 
 //         curl_close($ch); 
  setcookie('test', '2222', time() + (86400 * 30), "/");
-error_log('LINE error: tesytttttttttt');
+$ch = curl_init();
+
+        curl_setopt($ch,CURLOPT_URL, 'http://uat.dxplace.com/dxtms/testem');
+        curl_setopt($ch,CURLOPT_RETURNTRANSFER , true);
+        curl_setopt($ch,CURLOPT_POSTFIELDS, json_encode(array('a'=>'1111', 'b'=>'2222')));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            	"Content-Type: application/json",
+            )
+        );
+        $result = curl_exec($ch);
+        $err    = curl_error($ch);
+
+        curl_close($ch);
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        } else {
+            return $result;
+        }
 //echo '<script>window.open("https://mrtogether.herokuapp.com/push.php?mid=Ub5fea2ff169cba24b2179fd33e59e454", "_blank")</script>'
         //header('Location: https://mrtogether.herokuapp.com/push.php?mid=Ub5fea2ff169cba24b2179fd33e59e454');
 ?>
