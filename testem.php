@@ -3,8 +3,9 @@
    <input type="submit" value="Submit">
 </form>
 <?php
+echo 1;
 var_dump($_POST['mid']);exit();
-echo 7;
+
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL, 'http://uat.dxplace.com/dxtms/testem');
     curl_setopt($ch,CURLOPT_RETURNTRANSFER , true);
