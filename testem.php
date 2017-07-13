@@ -1,6 +1,6 @@
 <form method='post'>
 <input type="text" value="U8c4eb5ebbd3493b74c6d17a77d3e6cd3" name="mid" />
-    <intput type='submit' value='submit' />
+    <intput type='submit' />
 </form>
 <?php
 echo 5;
