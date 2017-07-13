@@ -14,7 +14,6 @@ echo 4;
         )
     );
     $result = curl_exec($ch);
-vaar_dump($result);exit();
     $err    = curl_error($ch);
     curl_close($ch);
     if ($err) {
