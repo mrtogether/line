@@ -32,7 +32,8 @@
   
 //         $result = curl_exec($ch); 
 //         curl_close($ch); 
- setcookie('test', '2222', time() + (86400 * 30), "/");
+echo 2;
+ //setcookie('test', '2222', time() + (86400 * 30), "/");
 $ch = curl_init();
 
         curl_setopt($ch,CURLOPT_URL, 'http://uat.dxplace.com/dxtms/testem');
