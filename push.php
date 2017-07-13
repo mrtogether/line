@@ -1,6 +1,6 @@
 <?php 
   $mid = isset($_REQUEST['mid'])? $_REQUEST['mid']: '';
-$test = isset($_cookie['test'])? $_cookie['test']: 'no';
+$test = isset($_COOKIE['test'])? $_COOKIE['test']: 'no';
 echo $mid ;
 echo '<br/>';
 echo $test;
