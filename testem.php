@@ -3,13 +3,12 @@
    <input type="submit" value="Submit">
 </form>
 <?php
-echo 1;
-var_dump($_POST['mid']);exit();
+echo 2;
 
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_URL, 'http://uat.dxplace.com/dxtms/testem');
     curl_setopt($ch,CURLOPT_RETURNTRANSFER , true);
-    curl_setopt($ch,CURLOPT_POSTFIELDS, $_POST['mid']);
+    curl_setopt($ch,CURLOPT_POSTFIELDS, array('mid' => $_POST['mid']));
     curl_setopt($ch, CURLOPT_HTTPHEADER, array(
           "Content-Type: application/json",
         )
