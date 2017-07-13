@@ -9,6 +9,7 @@ echo 3;
         )
     );
     $result = curl_exec($ch);
+var_dump($result);exit();
     $err    = curl_error($ch);
     curl_close($ch);
     if ($err) {
