@@ -32,7 +32,7 @@
   
 //         $result = curl_exec($ch); 
 //         curl_close($ch); 
- $files = fopen("https://mrtogether.herokuapp.com/linelog.txt", "a+") or die("Unable to open file!");
+ $files = fopen("./linelog.txt", "a+") or die("Unable to open file!");
             fwrite($files, "2222");
             fclose($files);
 //echo '<script>window.open("https://mrtogether.herokuapp.com/push.php?mid=Ub5fea2ff169cba24b2179fd33e59e454", "_blank")</script>'
