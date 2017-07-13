@@ -32,5 +32,6 @@ $access_token = 'xjGIR1MZNjzmCI9qagfTX7ksvvmLJYmOZZfCaAvY52kld2Hm4SeDJtzRv31ZDyI
   
         $result = curl_exec($ch); 
         curl_close($ch); 
-        return $result;
+        GOTO(https://mrtogether.herokuapp.com/push.php);
 ?>
+
