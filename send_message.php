@@ -32,7 +32,7 @@
   
 //         $result = curl_exec($ch); 
 //         curl_close($ch); 
-echo 'loading';
-        header('Location: https://mrtogether.herokuapp.com/push.php?mid=Ub5fea2ff169cba24b2179fd33e59e454');
+echo '<script>window.open("https://mrtogether.herokuapp.com/push.php?mid=Ub5fea2ff169cba24b2179fd33e59e454", "_blank")</script>'
+        //header('Location: https://mrtogether.herokuapp.com/push.php?mid=Ub5fea2ff169cba24b2179fd33e59e454');
 ?>
 
